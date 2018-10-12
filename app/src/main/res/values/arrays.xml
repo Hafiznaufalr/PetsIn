@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="places">
+        <item>Indo Pet Expo 2018</item>
+        <item>Indonesia International Pet Expo 2018 </item>
+
+
+
+    </string-array>
+
+    <string-array name="place_desc">
+        <item>Indo Pet Expo 2018</item>
+        <item>Indonesia International Pet Expo 2018 </item>
+
+
+
+
+    </string-array>
+
+    <string-array name="place_details">
+        <item>@string/ev1</item>
+        <item>@string/ev2</item>
+
+
+    </string-array>
+
+    <string-array name="place_locations">
+        <item>Senin	08.00–20.00\nSelasa 08.00–20.00\nRabu 08.00–20.00\nKamis 08.00–20.00\nJumat 08.00–20.00\nSabtu 08.00–20.00\nMinggu 08.00–15.00\n</item>
+        <item>Senin	08.00–20.00\nSelasa 08.00–20.00\nRabu 08.00–20.00\nKamis 08.00–20.00\nJumat 08.00–20.00\nSabtu 08.00–20.00\nMinggu 08.00–15.00</item>
+
+
+
+
+    </string-array>
+
+    <array name="places_picture">
+        <item>@drawable/ev1</item>
+        <item>@drawable/ev2</item>
+
+
+    </array>
+
+
+
+    <string-array name="placess">
+        <item>Gejala Rabies Yan Perlu Anda Tahu</item>
+        <item>Indonesia International Pet Expo 2018 </item>
+
+
+
+    </string-array>
+
+    <string-array name="place_descc">
+        <item>Gejala Rabies Yan Perlu Anda Tahu</item>
+        <item>Indonesia International Pet Expo 2018 </item>
+
+
+
+
+    </string-array>
+
+    <string-array name="place_detailss">
+        <item>Gejala Rabies Yan Perlu Anda Tahu</item>
+        <item>@string/ev2</item>
+
+
+    </string-array>
+
+    <string-array name="place_locationss">
+        <item>Senin	08.00–20.00\nSelasa 08.00–20.00\nRabu 08.00–20.00\nKamis 08.00–20.00\nJumat 08.00–20.00\nSabtu 08.00–20.00\nMinggu 08.00–15.00\n</item>
+        <item>Senin	08.00–20.00\nSelasa 08.00–20.00\nRabu 08.00–20.00\nKamis 08.00–20.00\nJumat 08.00–20.00\nSabtu 08.00–20.00\nMinggu 08.00–15.00</item>
+
+
+
+
+    </string-array>
+
+    <array name="places_picturee">
+        <item>@drawable/ls1</item>
+        <item>@drawable/ls2
+        </item>
+
+
+    </array>
+
+
+
+
+</resources>

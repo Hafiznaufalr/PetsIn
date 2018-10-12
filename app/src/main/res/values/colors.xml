@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e74c3c</color>
+    <color name="colorPrimaryDark">#e74c3c</color>
+    <color name="colorAccent">#4075a2</color>
+    <color name="colorNavIcon">#dae9f6</color>
+    <color name="colorNavText">#01294b</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#9E9E9E</color>
+    <color name="colorIndigo">#3F51B5</color>
+
+    <color name="colorBackground">#E0E0E0</color>
+
+    <color name="black">#000000</color>
+
+</resources>

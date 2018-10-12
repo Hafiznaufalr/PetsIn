@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:text="@string/kategori"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:textAlignment="center"
+        />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/utas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+
+            <ImageView
+                android:id="@+id/imgCat"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cat1"
+                android:adjustViewBounds="true"/>
+
+
+            <TextView
+                android:layout_toRightOf="@id/imgCat"
+                android:textSize="16sp"
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cat1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_margin="15dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dua"
+        android:layout_below="@id/utas"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+
+            <ImageView
+                android:id="@+id/imgCatt"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cat2"
+                android:adjustViewBounds="true"/>
+
+
+            <TextView
+                android:layout_toRightOf="@id/imgCatt"
+                android:textSize="16sp"
+                android:id="@+id/txtTitlee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cat2"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_margin="15dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tiga"
+        android:layout_below="@id/dua"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+
+            <ImageView
+                android:id="@+id/imgCattt"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cat3"
+                android:adjustViewBounds="true"/>
+
+
+            <TextView
+                android:layout_toRightOf="@id/imgCattt"
+                android:textSize="16sp"
+                android:id="@+id/txtTitleee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cat3"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_margin="15dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/empat"
+        android:layout_below="@id/tiga"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+
+            <ImageView
+                android:id="@+id/imgCatttt"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cat4"
+                android:adjustViewBounds="true"/>
+
+
+            <TextView
+                android:layout_toRightOf="@id/imgCatttt"
+                android:textSize="16sp"
+                android:id="@+id/txtTitleeee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cat4"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_margin="15dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lima"
+        android:layout_below="@id/empat"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+
+            <ImageView
+                android:id="@+id/imgCatttt5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cat5"
+                android:adjustViewBounds="true"/>
+
+
+            <TextView
+                android:layout_toRightOf="@id/imgCatttt5"
+                android:textSize="16sp"
+                android:id="@+id/txtTitleeee5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cat5"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_margin="15dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enam"
+        android:layout_below="@id/lima"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+
+            <ImageView
+                android:id="@+id/imgCatttt6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cat6"
+                android:adjustViewBounds="true"/>
+
+
+            <TextView
+                android:layout_toRightOf="@id/imgCatttt6"
+                android:textSize="16sp"
+                android:id="@+id/txtTitleeee6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cat6"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_margin="15dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

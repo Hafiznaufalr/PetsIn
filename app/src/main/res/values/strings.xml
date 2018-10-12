@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">PetsIn</string>
+    <string name="title_home">Home</string>
+    <string name="title_feed">Store</string>
+    <string name="title_inbox">Inbox</string>
+    <string name="title_notif">Notifikasi</string>
+    <string name="title_akun">Akun</string>
+    <string name="feed">Store</string>
+    <string name="cat1">Kandang dan Perlengkapan</string>
+    <string name="cat2">Perawatan Hewan</string>
+    <string name="cat3">Aksesoris Hewan</string>
+    <string name="cat4">Mainan Hewan</string>
+    <string name="cat5">Makanan Hewan</string>
+    <string name="cat6"><![CDATA[Obat & Vitamin]]></string>
+    <string name="kategori">Kategori</string>
+    <string name="forum">Forum</string>
+    <string name="diskusi_produk">Diskusi Produk</string>
+    <string name="bot">Bot</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="logout">Logout</string>
+    <string name="tips">Lifestyle</string>
+    <string name="pengingat">Pengingat</string>
+    <string name="cari_petshop">Cari Petshop</string>
+    <string name="events">Join Events</string>
+    <string name="qot">#Treat Your Pet In a Smarter Way</string>
+    <string name="keranjang_perlengkapan"><![CDATA[Keranjang & Perlengkapan]]></string>
+    <string name="set">setting</string>
+    <string name="ev2">Indonesia International Pet Expo (IIPE) is back on calendar with its 2018 edition to delight pet lovers and enthusiast on 20-22 July 2018 at Indonesia Convention Exhibition (ICE)!
+
+Recognize as the leading platform for products and services in pet care, the expo is a veritable showcase of the complete value chain in pet care from pet food and pet accessory manufacturers to pet sitters and from veterinary specialist to retail stores</string>
+    <string name="ev1">Mark your calendar and don’t miss the largest pet exhibition in Indonesia, because the 4th Annual INDONESIA PET EXPO is coming back on 7-9 September 2018 at Hall 3 &amp; 3a with the theme “Providing the Best for Your Pets, Yes We Care!”
+
+Indo Pet Expo is an annual exhibition devoted entirely to the well-being of pets and also introducing the latest trends and innovations of pet businesses and related professional services, as well as to bring together the interests of the pet hobbyist world, especially the providers of pet needs, including but not limited to pet food and other pet products. In addition to being a major promotional and business platform for all pet industry in Indonesia, Indo Pet Expo also offers a real solution to the problems in the world of pets. This event serves as an educational vessel as well as provider of complete range of necessities related to pets.</string>
+
+</resources>
