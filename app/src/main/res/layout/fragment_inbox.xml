@@ -11,6 +11,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/inb1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:focusable="true"
             android:padding="5dp">
 
 
@@ -52,7 +55,10 @@
             android:layout_height="wrap_content"
             android:id="@+id/inb2"
             android:layout_below="@id/v1"
-            android:padding="5dp">
+            android:padding="5dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:focusable="true">
 
 
             <ImageView
@@ -92,7 +98,10 @@
             android:layout_height="wrap_content"
             android:id="@+id/inb3"
             android:layout_below="@id/inb2"
-            android:padding="5dp">
+            android:padding="5dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:focusable="true">
 
 
             <ImageView
@@ -131,7 +140,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/inb4"
         android:layout_below="@id/inb3"
-        android:padding="5dp">
+        android:padding="5dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:focusable="true">
 
 
         <ImageView

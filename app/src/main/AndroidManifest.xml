@@ -52,10 +52,13 @@
             android:name=".events.EventsDetail"
             android:label="Detail Event"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".lifestyle.LifeStyle"
+        <activity
+            android:name=".lifestyle.LifeStyle"
             android:label="LifeStyle"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".lifestyle.LifeStyleDetail"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".lifestyle.LifeStyleDetail" />
+        <activity android:name=".forum.Forum" />
+        <activity android:name=".forum.Chatroom"></activity>
     </application>
 
 </manifest>
