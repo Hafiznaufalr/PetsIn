@@ -10,6 +10,8 @@
     <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
 
     <application
         android:allowBackup="true"
@@ -36,7 +38,6 @@
         <activity android:name=".store.store1.Store1" />
         <activity android:name=".MainActivity" />
         <activity android:name=".logout.Logout" />
-        <activity android:name=".pengingat.Pengingat" />
         <activity
             android:name=".login.Login"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -58,7 +59,17 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".lifestyle.LifeStyleDetail" />
         <activity android:name=".forum.Forum" />
-        <activity android:name=".forum.Chatroom"></activity>
+        <activity android:name=".chatbot.Chatbot" />
+        <activity android:name=".store.store2.Store2" />
+        <activity android:name=".store.store2.Detail2" />
+        <activity android:name=".store.store3.Store3" />
+        <activity android:name=".store.store3.Detail3" />
+        <activity android:name=".store.store4.Store4" />
+        <activity android:name=".store.store4.Detail4" />
+        <activity android:name=".store.store5.Store5" />
+        <activity android:name=".store.store5.Detail5" />
+        <activity android:name=".store.store6.Store6" />
+        <activity android:name=".store.store6.Detail6"></activity>
     </application>
 
 </manifest>

@@ -31,7 +31,7 @@ public class Store1 extends AppCompatActivity {
         setProduct();
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Keranjang & Perlengkapan");
+        getSupportActionBar().setTitle("Kandang & Perlengkapan");
 
 
     }

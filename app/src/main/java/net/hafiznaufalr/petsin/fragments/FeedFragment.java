@@ -13,6 +13,11 @@ import net.hafiznaufalr.petsin.R;
 import net.hafiznaufalr.petsin.events.Events;
 import net.hafiznaufalr.petsin.nearby.MapsActivity;
 import net.hafiznaufalr.petsin.store.store1.Store1;
+import net.hafiznaufalr.petsin.store.store2.Store2;
+import net.hafiznaufalr.petsin.store.store3.Store3;
+import net.hafiznaufalr.petsin.store.store4.Store4;
+import net.hafiznaufalr.petsin.store.store5.Store5;
+import net.hafiznaufalr.petsin.store.store6.Store6;
 
 public class FeedFragment extends Fragment implements View.OnClickListener {
     CardView f1,f2,f3,f4,f5,f6;
@@ -51,6 +56,26 @@ public class FeedFragment extends Fragment implements View.OnClickListener {
             case R.id.utas:
                 Intent yIntent = new Intent(getActivity(), Store1.class);
                 startActivity(yIntent);
+                break;
+            case R. id.dua:
+                Intent dIntent = new Intent(getActivity(), Store2.class);
+                startActivity(dIntent);
+                break;
+            case R.id.tiga:
+                Intent tIntent = new Intent(getActivity(), Store3.class);
+                startActivity(tIntent);
+                break;
+            case R.id.empat:
+                Intent eIntent = new Intent(getActivity(), Store4.class);
+                startActivity(eIntent);
+                break;
+            case R.id.lima:
+                Intent lIntent = new Intent(getActivity(), Store5.class);
+                startActivity(lIntent);
+                break;
+            case R.id.enam:
+                Intent enIntent = new Intent(getActivity(), Store6.class);
+                startActivity(enIntent);
                 break;
 
 

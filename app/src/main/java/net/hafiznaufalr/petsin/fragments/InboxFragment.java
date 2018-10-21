@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import net.hafiznaufalr.petsin.R;
+import net.hafiznaufalr.petsin.chatbot.Chatbot;
 import net.hafiznaufalr.petsin.events.Events;
 import net.hafiznaufalr.petsin.forum.Forum;
 import net.hafiznaufalr.petsin.lifestyle.LifeStyle;
@@ -53,6 +54,11 @@ public class InboxFragment extends Fragment implements View.OnClickListener {
             case R.id.inb1:
                 Intent yIntent = new Intent(getActivity(), Forum.class);
                 startActivity(yIntent);
+                break;
+
+            case R.id.inb3:
+                Intent tIntent = new Intent(getActivity(), Chatbot.class);
+                startActivity(tIntent);
                 break;
 
             case R.id.inb4:
