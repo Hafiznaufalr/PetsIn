@@ -53,6 +53,9 @@ public class Chatbot extends AppCompatActivity {
         mAdapter = new ChatMessageAdapter(this, new ArrayList<ChatMessage>());
         mListView.setAdapter(mAdapter);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Chat Bot");
+
         mButtonSend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -72,22 +75,22 @@ public class Chatbot extends AppCompatActivity {
         boolean a = isSDCARDAvailable();
         //receiving the assets from the app directory
         AssetManager assets = getResources().getAssets();
-        File jayDir = new File(Environment.getExternalStorageDirectory().toString() + "/hari/bots/Hari");
+        File jayDir = new File(Environment.getExternalStorageDirectory().toString() + "/chatbot/bots/Popoyo");
         boolean b = jayDir.mkdirs();
         if (jayDir.exists()) {
             //Reading the file
             try {
-                for (String dir : assets.list("Hari")) {
+                for (String dir : assets.list("Bot")) {
                     File subdir = new File(jayDir.getPath() + "/" + dir);
                     boolean subdir_check = subdir.mkdirs();
-                    for (String file : assets.list("Hari/" + dir)) {
+                    for (String file : assets.list("Bot/" + dir)) {
                         File f = new File(jayDir.getPath() + "/" + dir + "/" + file);
                         if (f.exists()) {
                             continue;
                         }
                         InputStream in = null;
                         OutputStream out = null;
-                        in = assets.open("Hari/" + dir + "/" + file);
+                        in = assets.open("Bot/" + dir + "/" + file);
                         out = new FileOutputStream(jayDir.getPath() + "/" + dir + "/" + file);
                         //copy file from assets to the mobile's SD card or any secondary memory
                         copyFile(in, out);
@@ -102,17 +105,26 @@ public class Chatbot extends AppCompatActivity {
                 e.printStackTrace();
             }
         }
+
+
         //get the working directory
-        MagicStrings.root_path = Environment.getExternalStorageDirectory().toString() + "/hari";
+        MagicStrings.root_path = Environment.getExternalStorageDirectory().toString() + "/chatbot";
         System.out.println("Working Directory = " + MagicStrings.root_path);
         AIMLProcessor.extension =  new PCAIMLProcessorExtension();
         //Assign the AIML files to bot for processing
-        bot = new Bot("Hari", MagicStrings.root_path, "chat");
+        bot = new Bot("Popoyo", MagicStrings.root_path, "chat");
         chat = new Chat(bot);
         String[] args = null;
         mainFunction(args);
 
     }
+
+    @Override
+    public boolean onSupportNavigateUp(){
+        finish();
+        return true;
+    }
+
 
     private void sendMessage(String message) {
         ChatMessage chatMessage = new ChatMessage(message, true, false);

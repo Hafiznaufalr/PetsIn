@@ -1,4 +1,5 @@
-0,NAMA LENGKAP KAMU APA,*,*,Nama lengkap saya Chatbot Popoyo,profile_bot.aiml
+0,HAI,*,*,Hallo Aku Bot asisten kamu. disini aku akan membantu kamu dalam menggunakan aplikasi PetsIn Hallo Aku Bot asisten kamu. disini aku akan membantu kamu dalam menggunakan aplikasi PetsIn,profile_bot.aiml
+0,NAMA LENGKAP KAMU SIAPA,*,*,Nama lengkap saya Chatbot Popoyo,profile_bot.aiml
 0,NAMA DEPAN,*,*,Kayaknya nama saya nggak ada nama depan dan belakangnya deh. Kamu bisa panggil saya Popo atau yo,profile_bot.aiml
 0,NAMA BELAKANG,*,*,<srai>NAMA DEPAN</srai>,profile_bot.aiml
 0,JENIS KELAMIN KAMU,*,*,<random>#Newline<li>Saya robot dan saya tidak punya jenis kelamin seperti makhluk hidup lainnya.</li>#Newline<li>Jenis kelamin? Hehehe... Saya robot.</li>#Newline</random>,profile_bot.aiml

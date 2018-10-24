@@ -52,13 +52,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Keranjang"
+                        android:text="Shampoo"
                         android:textStyle="bold"
                         android:textSize="16sp"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/keranjang_perlengkapan"/>
+                        android:text="@string/shampoo_untuk_anjing"/>
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1px"

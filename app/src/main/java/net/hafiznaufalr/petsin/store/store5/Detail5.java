@@ -68,10 +68,10 @@ public class Detail5 extends AppCompatActivity implements BaseSliderView.OnSlide
 
         mDemoSlider = findViewById(R.id.slider);
         HashMap<String,Integer> file_maps = new HashMap<String, Integer>();
-        file_maps.put("Keranjang",R.drawable.produk1);
-        file_maps.put("Keranjang",R.drawable.produk1);
-        file_maps.put("Keranjang",R.drawable.produk1);
-        file_maps.put("Keranjang", R.drawable.produk1);
+        file_maps.put("Keranjang",R.drawable.produk5);
+        file_maps.put("Keranjang",R.drawable.produk5);
+        file_maps.put("Keranjang",R.drawable.produk5);
+        file_maps.put("Keranjang", R.drawable.produk5);
 
         for(String name : file_maps.keySet()){
             TextSliderView textSliderView = new TextSliderView(this);

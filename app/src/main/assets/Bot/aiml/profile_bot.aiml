@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <aiml>
 	<category>
-		<pattern>NAMA LENGKAP KAMU APA</pattern>
+		<pattern>HAI</pattern>
+		<template>
+			Hallo Aku Bot asisten kamu. disini aku akan membantu kamu dalam menggunakan aplikasi PetsIn Hallo Aku Bot asisten kamu. disini aku akan membantu kamu dalam menggunakan aplikasi PetsIn
+		</template>
+	</category>
+	<category>
+		<pattern>NAMA LENGKAP KAMU SIAPA</pattern>
 		<template>
 			Nama lengkap saya Chatbot Popoyo.
 		</template>

@@ -56,7 +56,7 @@ public class Detail6 extends AppCompatActivity implements BaseSliderView.OnSlide
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail5);
+        setContentView(R.layout.activity_detail6);
 
         txtBuy = findViewById(R.id.txtBuy);
         txtBuy.setOnClickListener(new View.OnClickListener() {
@@ -68,10 +68,10 @@ public class Detail6 extends AppCompatActivity implements BaseSliderView.OnSlide
 
         mDemoSlider = findViewById(R.id.slider);
         HashMap<String,Integer> file_maps = new HashMap<String, Integer>();
-        file_maps.put("Keranjang",R.drawable.produk1);
-        file_maps.put("Keranjang",R.drawable.produk1);
-        file_maps.put("Keranjang",R.drawable.produk1);
-        file_maps.put("Keranjang", R.drawable.produk1);
+        file_maps.put("Keranjang",R.drawable.produk6);
+        file_maps.put("Keranjang",R.drawable.produk6);
+        file_maps.put("Keranjang",R.drawable.produk6);
+        file_maps.put("Keranjang", R.drawable.produk6);
 
         for(String name : file_maps.keySet()){
             TextSliderView textSliderView = new TextSliderView(this);

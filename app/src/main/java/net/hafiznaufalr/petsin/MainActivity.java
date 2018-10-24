@@ -1,11 +1,13 @@
 package net.hafiznaufalr.petsin;
 
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 
 import android.view.Menu;
@@ -84,6 +86,18 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         MenuInflater inflater = this.getMenuInflater();
         inflater.inflate(R.menu.main_activity, menu);
         return true;
+    }
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setMessage("Apakah Anda Ingin Keluar?")
+                .setCancelable(false)
+                .setPositiveButton("Iya", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        MainActivity.this.finish();
+                    }
+                })
+                .setNegativeButton("Tidak", null)
+                .show();
     }
 
 
